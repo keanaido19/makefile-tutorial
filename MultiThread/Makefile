@@ -8,7 +8,7 @@ targets: target1 target2
 	echo done
 
 target1:
-	sleep 2
+	sleep 2 && echo "$$!"
 	echo target1 is done
 
 target2:
